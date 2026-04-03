@@ -1,16 +1,16 @@
 {
-  "name": "backend",
+  "name": "low-key-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "LOW-KEY e-commerce backend",
   "main": "server.js",
-  "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["mern", "ecommerce", "backend"],
+  "author": "Nancy Kaur",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
